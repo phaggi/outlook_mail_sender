@@ -55,7 +55,7 @@ def run_checking_mail(func):
         time.sleep(5)
 
 if __name__ == '__main__':
-    e_address = 'alan_gibizov@center.rt.ru; phaggi@gmail.com'
+    e_address = 'ajajaj@mail.ru; phaggi@gmail.com'
     subj = 'subject'
     testpath = Path.cwd() / Path('testdir')
     attach_path = [str(testpath / Path(file)) for file in os.listdir(testpath) if 'csv' in file]
